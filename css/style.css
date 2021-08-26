@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Vazir.woff2") format("woff2"),
+        url("../fonts/Vazir.woff") format("woff"),
+        url("../fonts/Vazir.ttf") format("truetype");
+    /* Safari, Android, iOS */
+}
+
+body {
+    font-family: "Vazir" !important;
+}
+.text-purple{
+    color: #5d05e0d5 !important;
+}
+.btn-info {
+    color: rgb(255, 255, 255) !important;
+    background:linear-gradient(45deg, #8F13FE, #6A11F3) !important;
+    border: none !important;
+}
+.badge-info {
+    color: rgb(255, 255, 255) !important;
+    background:linear-gradient(45deg, #9013fedc, #6b11f3d5) !important;
+    border: none !important;
+}
+.btn-info:hover {
+    color: rgb(255, 255, 255) !important;
+    background:linear-gradient(45deg, #6A11F3, #6109e6) !important;
+
+    
+}
+.btn-check:focus+.btn-info, .btn-info:focus {
+    
+    box-shadow: 0 0 0 0.25rem #6b11f33a  !important;
+}
+.icon{
+    font-size: 25px;
+    color: #8C13FD;
+    background-color: #f5eaff;
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 13px;
+}
+.icon2{
+    font-size: 25px;
+    color: #8C13FD;
+    
+    display: inline-flex;
+   
+}
+.accordion-item:first-of-type {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    overflow: hidden ;
+}
+.accordion-item:last-of-type {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:15px;
+    overflow: hidden ;
+
+}
+
+
+ .footer-link {
+    text-decoration: none;
+    color: #000;
+}
+.footer-header {
+    border-bottom: 2px solid #6C757D;
+    height: 35px;
+}
+
+.footer-link:hover {
+    color: black !important;
+}
+ 
